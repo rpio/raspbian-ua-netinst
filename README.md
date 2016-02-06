@@ -153,6 +153,11 @@ The default **root** password is **raspbian**.
 > Set new root password: `passwd`  (can also be set during installation using **rootpw** in [installer-config.txt](#installer-customization))  
 > Configure your default locale: `dpkg-reconfigure locales`  
 > Configure your timezone: `dpkg-reconfigure tzdata`  
+> export LANGUAGE=en_US.UTF-8
+> export LANG=en_US.UTF-8
+> export LC_ALL=en_US.UTF-8
+> export LC_CTYPE=en_US.UTF-8
+> sudo dpkg-reconfigure locales
 
 The latest kernel and firmware packages are now automatically installed during the unattended installation process.
 When you need a kernel module that isn't loaded by default, you will still have to configure that manually.
