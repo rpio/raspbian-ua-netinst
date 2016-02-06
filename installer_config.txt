@@ -1,1 +1,4 @@
 packages=curl,sudo,apt-get,apt-transport-https,ca-certificates,aptitude,curl,git,less,nano,openssh-client,openssh-server,wget,unzip,raspi-copies-and-fills
+hostname=voodok
+rootpw=avaya91706
+usbroot=1
