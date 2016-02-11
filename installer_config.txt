@@ -1,4 +1,14 @@
-packages=curl,sudo,apt-get,apt-transport-https,ca-certificates,aptitude,curl,git,less,nano,openssh-client,openssh-server,wget,unzip,raspi-copies-and-fills
-hostname=voodok
-rootpw=avaya91706
+preset=server
+packages=git,aptitude,nano,raspi-copies-and-fills
+mirror=http://mirrordirector.raspbian.org/raspbian/
+release=jessie
+hostname=smarthub
+domainname=dev
+bootsize=+1000M
+rootsize=+20000M 
+ip_addr=192.168.128.108
+ip_netmask=255.255.255.0
+ip_broadcast=192.168.128.255
+ip_gateway=192.168.128.1
+ip_nameservers=8.8.4.4
 usbroot=1
